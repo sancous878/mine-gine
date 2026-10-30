@@ -53,12 +53,13 @@ footer{padding:22px;text-align:center;color:var(--mute);font-size:14px;border-to
 @media(max-width:860px){.hero{grid-template-columns:1fr}.stage{order:-1;min-height:320px}.steve{width:min(86%,340px)}nav{gap:14px}}
 .rules{max-width:1240px;margin:0 auto;padding:clamp(28px,6vw,72px) clamp(18px,5vw,64px);border-top:1px solid var(--line)}.rules h2{font-size:clamp(22px,3.4vw,34px);margin:0 0 8px}.rules>p{color:var(--mute);margin:0 0 24px}details{background:var(--panel);border:1px solid var(--line);border-radius:10px;margin:0 0 12px}summary{cursor:pointer;padding:16px 20px;font-family:Unbounded,Impact,sans-serif;font-weight:600;font-size:16px}details[open] summary{color:var(--ember2)}details ul{list-style:none;margin:0;padding:0 20px 14px}details li{display:grid;grid-template-columns:3.4em 1fr;gap:6px;padding:10px 0;border-top:1px solid var(--line);color:#cfcad7}details li b{color:var(--ember2)}
 .feats{max-width:1240px;margin:0 auto;padding:clamp(28px,6vw,72px) clamp(18px,5vw,64px);border-top:1px solid var(--line)}.feats h2{font-size:clamp(22px,3.4vw,34px);margin:0 0 24px}.farm{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(18px,4vw,48px);align-items:center;margin-bottom:40px}.farm img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);display:block}.farm h3,.kits h3{font-family:Unbounded,Impact,sans-serif;font-weight:600;font-size:20px;margin:0 0 10px}.farm p{margin:0 0 12px;color:#cfcad7;max-width:60ch}.mini{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:40px}.mini div{border-left:3px solid var(--ember);padding:2px 0 2px 14px}.mini b{display:block;color:var(--text);margin-bottom:2px}.mini span{color:var(--mute)}.kits{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}.kit{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px}.kit h4{font-family:Unbounded,Impact,sans-serif;font-weight:600;font-size:17px;margin:0 0 10px;color:var(--ember2)}.kit ul{margin:0;padding-left:18px;color:#cfcad7}.kit p{margin:12px 0 0;color:var(--mute);font-size:15px}.kits-h{margin:0 0 14px}@media(max-width:860px){.farm{grid-template-columns:1fr}}
+.donate{max-width:1240px;margin:0 auto;padding:clamp(28px,6vw,72px) clamp(18px,5vw,64px);border-top:1px solid var(--line)}.donate h2{font-size:clamp(22px,3.4vw,34px);margin:0 0 8px}.donate>p{color:var(--mute);margin:0 0 24px;max-width:70ch}.priv{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-bottom:22px}.pv{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px;display:flex;flex-direction:column}.pv h3{font-family:Unbounded,Impact,sans-serif;font-weight:800;font-size:20px;margin:0 0 4px;letter-spacing:.03em}.pv .sub{color:var(--mute);font-size:14px;margin:0 0 14px}.pv ul{margin:0;padding-left:18px;color:#cfcad7}.pv li{margin-bottom:4px}.pv.top{border-color:var(--ember);box-shadow:0 0 36px rgba(255,122,51,.16)}.pv.top h3{color:var(--ember2)}
 </style>
 </head>
 <body>
 <header>
   <a class="logo" href="#top">MINE<span>-</span>GINE</a>
-  <nav aria-label="Навігація"><a href="#about">Про сервер</a><a href="#start">Як почати</a><a href="#features">Можливості</a><a href="#team">Команда</a><a href="#rules">Правила</a></nav>
+  <nav aria-label="Навігація"><a href="#about">Про сервер</a><a href="#start">Як почати</a><a href="#features">Можливості</a><a href="#team">Команда</a><a href="#donate">Донати</a><a href="#rules">Правила</a></nav>
 </header>
 
 <main id="top">
@@ -122,6 +123,18 @@ footer{padding:22px;text-align:center;color:var(--mute);font-size:14px;border-to
     <article class="adm"><h3>sancous878</h3><p class="role">Будівельник і визначник</p><p>Дуже часто буває на сервері.</p></article>
     <article class="adm"><h3>naz_serg_o_</h3><p class="role">Масштабний будівельник</p><p>Збудував основні речі на сервері.</p></article>
   </div>
+</section>
+
+<section class="donate" id="donate">
+  <h2>Донати та привілегії</h2>
+  <p>Підтримка сервера добровільна. Усі кошти йдуть на розвиток проєкту та перехід на потужний платний хостинг. Деталі та вартість привілегій уточнюйте в нашому Discord.</p>
+  <div class="priv">
+    <article class="pv"><h3>VIP</h3><p class="sub">Базова привілегія</p><ul><li>Лікування себе</li></ul></article>
+    <article class="pv"><h3>PREMIUM</h3><p class="sub">Усе з VIP, а також:</p><ul><li>Лікування себе</li><li>Вхід на сервер без черги</li><li>Збереження інвентарю</li><li>Особливий кіт (Diamond)</li></ul></article>
+    <article class="pv"><h3>ELITE</h3><p class="sub">Усе з VIP та Premium, а також:</p><ul><li>Команда /fly</li></ul></article>
+    <article class="pv top"><h3>ADMIN</h3><p class="sub">Усе з попередніх привілегій, а також обов’язки:</p><ul><li>Стежити за сервером</li><li>Допомагати його просуванню</li><li>Та інші адміністраторські завдання</li></ul></article>
+  </div>
+  <a class="btn" href="https://discord.gg/YeDnzhauqx" target="_blank" rel="noopener">Написати в Discord</a>
 </section>
 
 <section class="rules" id="rules">
